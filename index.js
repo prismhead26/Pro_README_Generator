@@ -3,11 +3,16 @@ const inquirer = require('inquirer')
 const { writeFile } = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown');
 const { error } = require('console');
+const chalk = require('chalk')
 // Array of questions for user input
 const questions = [
         {
             name: "title",
             message: "What is the name of your Project Title?",
+        },
+        {
+            name: 'username',
+            message: 'Provide your full name for coypright.'
         },
         {
             name: 'description',
@@ -51,14 +56,14 @@ const questions = [
 // Function writes README file
 function writeToFile(fileName, data) {
     writeFile(fileName, data, (err) => { 
-        if (err) return error(err)
+        if (err) return error(chalk.red(err))
     
-    console.log('Woop woop READme file has been successfuly created.')
+    console.log(chalk.green('Woop woop READme file has been successfuly created.'))
     })
 }
 // Function initializes app .... using async/await rather than .then/catch
 async function init() {
-    console.log('Welcome... professional READme generator is spooling up.')
+    console.log(chalk.bgYellowBright.black('Welcome... professional READme generator is spooling up.'))
 
     const answers = await inquirer.prompt(questions)
 

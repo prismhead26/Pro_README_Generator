@@ -83,7 +83,7 @@ generateMarkdown = data => {
   For additonal questions or open feedback, feel free to contact me at my email:${data.email}. 
   You can also find me on Github at [${data.github}](https://github.com/${data.github}).
   
-  © 2023 Confidential and Proprietary. All Rights Reserved.`;
+  © 2024 ${data.username}.Confidential and Proprietary. All Rights Reserved.`;
 }
 // Allows the ability to export generateMarkdown func
 module.exports = generateMarkdown;
