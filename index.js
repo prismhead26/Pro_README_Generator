@@ -4,11 +4,15 @@ const { writeFile } = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown');
 const { error } = require('console');
 const chalk = require('chalk')
+
+// const chalkPipe = require('chalk-pipe');
+
 // Array of questions for user input
 const questions = [
         {
             name: "title",
             message: "What is the name of your Project Title?",
+            default: 'cyan'
         },
         {
             name: 'username',
