@@ -8,7 +8,7 @@
   
   ## Table of Contents:
   - [Installation Instructions](#Installation-Instructions)
-  - [Usage Information](#Usage-Information)
+  - [Usage Information](#Usage-Instructions)
   - [Links](#Links)
   - [Features](#Features)
   - [Contribution Guidelines](#Contribution-Guidelines)
