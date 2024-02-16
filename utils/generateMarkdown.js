@@ -41,7 +41,7 @@ renderLicenseSection = license => {
   
   Licensed under the ${license} license.
   
-  ${renderLicenseBadge(license)} =>
+  ${renderLicenseBadge(license)}\
   ${renderLicenseLink(license)}`
 }
 // Function generates markdown for README

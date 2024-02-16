@@ -33,8 +33,7 @@
   
   Licensed under the The MIT License license.
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) =>
-  (https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  (https://opensource.org/licenses/MIT)
   
   ## Questions:
   For additonal questions or open feedback, feel free to contact me at my email:. 
