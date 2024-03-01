@@ -69,6 +69,8 @@ function writeToFile(fileName, data) {
 async function init() {
     console.log(chalk.bgMagenta.black('Welcome... professional READme generator is spooling up.'))
 
+    console.log(chalk.red('Remember if you want to continue to next prompt, hit Enter.'))
+
     const answers = await inquirer.prompt(questions)
 
     writeToFile('(Generated)READme.md', generateMarkdown(answers))
