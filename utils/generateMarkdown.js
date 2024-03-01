@@ -83,7 +83,7 @@ generateMarkdown = data => {
   ${renderLicenseSection(data.license)}
   
   ## Questions:
-  For additonal questions or concerns, feel free to contact me via [email]${data.email}. 
+  For additonal questions or concerns, feel free to contact me via [email](http://${data.email}). 
   You can also find me on Github at [${data.github}](https://github.com/${data.github}).
   
   © 2024 ${data.username}. All Rights Reserved.`;

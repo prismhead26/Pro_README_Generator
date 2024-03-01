@@ -23,11 +23,11 @@ const questions = [
         },
         {
             name: 'installation',
-            message: chalk.blue('Provide instructions and examples for use. Include screenshots as needed.  To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)')
+            message: chalk.blue('What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'),
         },
         {
             name: 'usage',
-            message: chalk.blue('What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'),
+            message: chalk.blue('Provide instructions and examples for use. Include screenshots as needed.  To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)')
         },
         {
             name: 'contribution',
@@ -50,6 +50,7 @@ const questions = [
         {
             name: "email",
             message: chalk.blue('Provide a link to your email for questions.'),
+            default: 'example@gmail.com',
         },
         {
             name: "features",
