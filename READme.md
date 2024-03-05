@@ -34,7 +34,7 @@
   ![Terminal Screenshot](/assets/images/Screenshot.png)
 
   Youtube video link:
-  [Youtube Link](https://youtu.be/mM2Bvz5L68g)
+  [Youtube Link](https://www.youtube.com/watch?v=gUUZncg3QIU)
 
   ## Features
   Javascript: variables, conditional statements, destructuring, and asyn/await functions 
