@@ -48,7 +48,7 @@
   (https://opensource.org/licenses/MIT)
   
   ## Questions:
-  For additonal questions or concerns, feel free to contact me via [email](prismhead26@gmail.com). 
+  For additonal questions or concerns, feel free to contact me via [email](http://prismhead26@gmail.com). 
   You can also find me on Github at [prismhead26](https://github.com/prismhead26).
   
   © 2024 Aiden Wahed. All Rights Reserved.
