@@ -2,7 +2,7 @@
 
   ## Description:
   The main goal of this project is to build a professional READme generator so the file can be easily created, thus allowing more focus on the logic.
-  After completion of the project, I have a better understanding of Nodejs and how to implement packages from the standard library as well as third-party libraries. I also learned the learned multiple ways on how to handle a promise with asyncronous code and really enjoyed the ability to test and debug locally. And lastly I learned some better ways to refactor the JavaScript code by implmenting a switch case statement, thus making the code shorter,more modular, and easier to understand!
+  After completion of the project, I have a better understanding of Nodejs and how to implement packages from the standard library as well as third-party libraries. I also learned the learned multiple ways on how to handle a promise with asyncronous code and really enjoyed the ability to test and debug locally. And lastly I learned some better ways to refactor the JavaScript code by implmenting a switch case statement, thus making the code shorter, more modular, and easier to understand!
   
   ## Table of Contents:
   - [Installation Instructions](#Installation-Instructions)
@@ -35,7 +35,8 @@
   Youtube video link:
 
   ## Features
-  Javascript: variables, stich case statements, destructuring, and asyn/await functions
+  Javascript: variables, conditional statements, destructuring, and asyn/await functions 
+  <br>
   Nodejs: Node, File Sytem library, Inquirer package, and Chalk.
   
   ## Test Instructions:
